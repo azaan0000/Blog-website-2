@@ -1,0 +1,37 @@
+# WealthBuilding Pro - robots.txt
+# High CPM Finance Blog - Complete SEO Configuration
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://wealthbuildingpro.com/sitemap.xml
+
+# Crawl Delay
+Crawl-delay: 1
+
+# Block Scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Primary Bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
